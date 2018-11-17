@@ -1,10 +1,8 @@
-from math import radians
-import numpy as np     # installed with matplotlib
-import matplotlib.pyplot as plt
+a = 3
 
-def main():
-    x = np.arange(0, radians(1800), radians(12))
-    plt.plot(x, np.cos(x), 'b')
-    plt.show()
-
-main()
+if a == 3:
+    print("I am a ",a)
+elif a == 2:
+    print("I am a 2")
+else:
+    print("I am not a 3 or a 2")
